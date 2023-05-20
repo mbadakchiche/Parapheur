@@ -2,7 +2,7 @@
 ## About courrier installation 
 clone the repo using : 
 ``` cmd
-git clone https://kamelher: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@github.com/Univesity-of-msila/courrier.git
+git clone https://github.com/Univesity-of-msila/courrier.git
 ```
 ### commands
 update your app Url in .env file.
