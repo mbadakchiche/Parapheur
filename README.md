@@ -1,11 +1,15 @@
 # MESRS_Courrier
 ## About courrier installation 
 clone the repo using : 
+``` cmd
 git clone https://kamelher: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@github.com/Univesity-of-msila/courrier.git
+```
 ### commands
-Run the bellow command:
-docker-compose exec apache cd /app && composer update && php artisan storage:link && php artisan migrate
 
+Run the bellow command:
+``` cmd 
+docker-compose exec apache cd /app && composer update && php artisan storage:link && php artisan migrate
+```
 ## Code of Conduct
 
 In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
