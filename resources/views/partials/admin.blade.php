@@ -1,4 +1,4 @@
-@include('partials.common')
+
 <li class="nav-item menu-is-opening menu-open">
     <a href="#" class="nav-link {{ Request::is('administration*') ? 'active' : '' }} ">
         <i class="nav-icon fas fa-home"></i>

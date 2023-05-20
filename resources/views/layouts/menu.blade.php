@@ -5,8 +5,7 @@
         <p>{{__('nav.home')}}</p>
     </a>
 </li>
-
-
+@include('partials.common')
 @role('admin')
 @include('partials.admin')
 @endrole
