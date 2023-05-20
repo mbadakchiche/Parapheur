@@ -15,8 +15,26 @@ Run the bellow command:
 docker-compose up -d
 ```
 ``` cmd 
-docker-compose exec apache cd /app && composer update && php artisan storage:link && php artisan migrate
+docker-compose exec apache /bin/bash
+
+cd /app
+
+composer update
+php artisan storage:link 
+php artisan migrate
+
+chmod -R 777 storage/ bootstrap/
 ```
+
+
+super admin 
+````
+mail: admin@admin.com
+password: password
+`````
+
+your app will start on port 8001.
+
 ## Code of Conduct
 
 In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
