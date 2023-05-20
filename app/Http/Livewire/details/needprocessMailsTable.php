@@ -40,7 +40,7 @@ class needprocessMailsTable extends DataTableComponent
     public function columns(): array
     {
         return [
-            Column::make(__('models/Mails.fields.id'), "id")
+            Column::make(__('models/mails.fields.id'), "id")
                 ->sortable()
                 ->searchable(),
             Column::make(__('models/circulations.fields.record_number'), "id")
