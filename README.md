@@ -5,8 +5,15 @@ clone the repo using :
 git clone https://kamelher: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@github.com/Univesity-of-msila/courrier.git
 ```
 ### commands
+update your app Url in .env file.
+``` env
+APP_URL=http://localhost:8001
+```
 
 Run the bellow command:
+```
+docker-compose Up -d
+```
 ``` cmd 
 docker-compose exec apache cd /app && composer update && php artisan storage:link && php artisan migrate
 ```
