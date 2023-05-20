@@ -1,0 +1,244 @@
+commit 7c010e064e7da2cd86ed91434a1e4ec5ac8caf0d
+Author: kaliheragmi <kameleddine.heraguemi@univ-msila.dz>
+Date:   Fri May 19 20:56:31 2023 +0100
+
+    Add lfs file
+
+commit b77868f3b98a7ecc1639e535355b567044e5fa93
+Author: kaliheragmi <kameleddine.heraguemi@univ-msila.dz>
+Date:   Fri May 19 20:03:19 2023 +0100
+
+    Change nginx tto apache server
+
+commit e2e2171727313a7e8dfc126a3cd336c47021c470
+Author: kaliheragmi <kameleddine.heraguemi@univ-msila.dz>
+Date:   Fri May 19 19:57:43 2023 +0100
+
+    Change nginx tto apache server
+
+commit b9e18672d87e6bc2086257daf481110bbc0cbe25
+Author: kaliheragmi <kameleddine.heraguemi@univ-msila.dz>
+Date:   Fri May 19 17:49:34 2023 +0100
+
+    Start working on Signatures
+
+commit 34aeaa7ec80a34661811a9107036dbcbd1f4571a
+Author: kaliheragmi <kameleddine.heraguemi@univ-msila.dz>
+Date:   Fri May 12 16:51:00 2023 +0100
+
+    Working on dockerization
+
+commit 3ddebb1ca3e015f890e13a855ead6146ff4ea914
+Merge: bd8c0f7 91c6a85
+Author: kaliheragmi <kamelher@users.noreply.github.com>
+Date:   Fri May 12 15:33:04 2023 +0100
+
+    Merge pull request #1 from kamelher/courrier
+    
+    Upgrade the repo to the actual version of the courier platform
+
+commit 91c6a851c69d56cc6321c8d84e1427d3a1c4e256
+Merge: c5eb8aa d333f81
+Author: kaliheragmi <kamelher@users.noreply.github.com>
+Date:   Fri May 12 15:19:16 2023 +0100
+
+    Merge pull request #5 from kamelher/dev
+    
+    Dev
+
+commit d333f81e0f23e530ddfdc0fdc203c10ac8b86921
+Author: kamel heragmi <kamel.heragmi@gmail.com>
+Date:   Fri May 12 15:16:07 2023 +0100
+
+    refactor HomeController.php
+
+commit e1cd4c3a9dc89d19dfa54f6eeb8fd9ef6ebe88cf
+Author: kamel heragmi <kamel.heragmi@gmail.com>
+Date:   Wed May 10 23:58:43 2023 +0100
+
+    Working on Login page and Establishment configuration
+
+commit 9d1984271bf1df010485686136f1d7b0cef4536a
+Author: kamel heragmi <kamel.heragmi@gmail.com>
+Date:   Sun May 7 19:49:25 2023 +0100
+
+    Working On fixing bugs
+
+commit 7ea431f0cc5a37cf3e0f99c4ad5ce58c172d1d57
+Author: kamel heragmi <kamel.heragmi@gmail.com>
+Date:   Tue May 2 01:19:40 2023 +0100
+
+    اضافة ملقات livewire الترجمة للغة العربية
+
+commit bf8212955c2b8ec5c17bf21afa1d8d8df73ed881
+Author: kamel heragmi <kamel.heragmi@gmail.com>
+Date:   Tue May 2 00:59:24 2023 +0100
+
+    اضافة ملقات الترجمة للغة العربية
+
+commit dc47fd7beb1d4d151ca3fd7045f840ad1789f7ac
+Author: kamel heragmi <kamel.heragmi@gmail.com>
+Date:   Tue May 2 00:16:31 2023 +0100
+
+    Working on circulation workflow, Roles and permissiions and Interfaces
+
+commit cc9acbab3043f11d461a904696f3c6526e89e820
+Author: kamel heragmi <kamel.heragmi@gmail.com>
+Date:   Tue Apr 25 23:18:47 2023 +0100
+
+    Working on circulation workflow
+
+commit d80ba73d185e81d4242a11081b44c774f4566def
+Author: kamel heragmi <kamel.heragmi@gmail.com>
+Date:   Sat Apr 22 14:02:26 2023 +0100
+
+    rrefactor myFunctions.js
+
+commit 06e82435e15831cf58dd38c40c6407392d152622
+Author: kamel heragmi <kamel.heragmi@gmail.com>
+Date:   Sat Apr 22 02:15:15 2023 +0100
+
+    Finished working on Users and Services.
+
+commit dbe0253392de324c92ed90ddfab88ca98a337f78
+Author: kamel heragmi <kamel.heragmi@gmail.com>
+Date:   Fri Apr 21 21:43:15 2023 +0100
+
+    Adding actions to project
+
+commit cc2c1803b5c3d75e9c05e15e7c4a196a6138925f
+Author: kamel heragmi <kamel.heragmi@gmail.com>
+Date:   Fri Apr 21 19:37:56 2023 +0100
+
+    Adding actions to project
+
+commit 13031d58b8e2afc8c00cdfd3f55d80557797005a
+Author: kamel heragmi <kamel.heragmi@gmail.com>
+Date:   Fri Apr 21 19:32:03 2023 +0100
+
+    Working on Edit and show in Bootstrap Modal
+
+commit 10bfe8fe90d27e847e0e631ae67f5fffe87e5cac
+Author: kamel heragmi <kamel.heragmi@gmail.com>
+Date:   Fri Apr 21 19:31:48 2023 +0100
+
+    Working on Edit and show in Bootstrap Modal
+
+commit e3658c5537b4c615b62b0b25bed7a3e526c099ff
+Author: kamel heragmi <kamel.heragmi@gmail.com>
+Date:   Fri Apr 21 19:07:16 2023 +0100
+
+    Working on Edit and show in Bootstrap Modal
+
+commit 3e25d65260dd56f82db67d906cf11ab570c762dc
+Author: kamel heragmi <kamel.heragmi@gmail.com>
+Date:   Fri Apr 21 18:20:50 2023 +0100
+
+    Working on seeders
+
+commit 7956a5fb890618d4d247cd9a47f48c5814059b61
+Author: kamel heragmi <kamel.heragmi@gmail.com>
+Date:   Fri Apr 21 15:17:02 2023 +0100
+
+    adding Livewire configuration
+
+commit 4e31840d9bbec2b43233afa640a3fd5c9b23249f
+Author: kamel heragmi <kamel.heragmi@gmail.com>
+Date:   Fri Apr 21 15:05:35 2023 +0100
+
+    adding languages and reorganize the menu bar
+
+commit a73ebabc9969c077fe23b0f692e27eb310c1267d
+Author: kamel heragmi <kamel.heragmi@gmail.com>
+Date:   Fri Apr 21 15:05:09 2023 +0100
+
+    adding languages and reorganize the menu bar
+
+commit 9668f8b9005d7595247ea3aecc7362b6a0271ac9
+Author: kamel heragmi <kamel.heragmi@gmail.com>
+Date:   Fri Apr 21 14:35:37 2023 +0100
+
+    Adding IDE helper
+
+commit 98fb7d22cd47ee9e24c52b07782950cabe7d0a0e
+Author: kamel heragmi <kamel.heragmi@gmail.com>
+Date:   Fri Apr 21 14:04:20 2023 +0100
+
+    Adding Languague switcher with configuration
+
+commit 0619ee9e064f583ac5e7d06fc0b55957c60ab46b
+Author: kamel heragmi <kamel.heragmi@gmail.com>
+Date:   Thu Apr 20 14:30:43 2023 +0100
+
+    addminroles
+
+commit 17f32a54d69c6b9f61947382d0d36d57f37890f1
+Merge: c5eb8aa bd8c0f7
+Author: kamel heragmi <kamel.heragmi@gmail.com>
+Date:   Sat Mar 25 18:41:25 2023 +0100
+
+    Merge remote-tracking branch 'origin/master' into DCEU
+
+commit bd8c0f71896e77883c86e0b00cc20cd542c05e57
+Merge: da3d026 c805c48
+Author: kaliheragmi <kamelher@users.noreply.github.com>
+Date:   Sat Mar 25 18:07:26 2023 +0100
+
+    Merge pull request #4 from kamelher/dev-2
+    
+    Dev 2
+
+commit c5eb8aada56c460a1bfc95563910ce10bac822b1
+Merge: adc9c8a c805c48
+Author: kamel heragmi <kamel.heragmi@gmail.com>
+Date:   Sat Mar 25 18:06:08 2023 +0100
+
+    Merge remote-tracking branch 'origin/dev-2'
+
+commit c805c48f5531b55c351df3ceba81bbc85bce5dec
+Author: kamel heragmi <kamel.heragmi@gmail.com>
+Date:   Sat Mar 25 17:57:28 2023 +0100
+
+    admin custom style
+
+commit da3d02668f303b1c9c3428008d284bcdd5774e6e
+Merge: 5bf5061 d9bce74
+Author: kaliheragmi <kamelher@users.noreply.github.com>
+Date:   Sat Mar 25 17:40:37 2023 +0100
+
+    Merge pull request #3 from kamelher/dev
+    
+    commited
+
+commit 0457e974604776a4660c9c94d878f6c2267dcdbe
+Author: kamel heragmi <kamel.heragmi@gmail.com>
+Date:   Sat Mar 25 17:40:11 2023 +0100
+
+    adding custom scss
+
+commit d9bce743d54fa887defc4f5eee7fec73cdd48a34
+Author: kamel heragmi <kamel.heragmi@gmail.com>
+Date:   Sat Mar 25 17:38:59 2023 +0100
+
+    commited
+
+commit 5bf5061d7c269e101fce93bf8e070665a02d5d88
+Merge: f26a3b3 adc9c8a
+Author: kaliheragmi <kamelher@users.noreply.github.com>
+Date:   Sat Mar 25 17:15:06 2023 +0100
+
+    Merge pull request #2 from kamelher/main
+    
+    adding roles package and publish assets
+
+commit adc9c8ab3aad4589a8bd79c9be95e7021be7befc
+Author: kamel heragmi <kamel.heragmi@gmail.com>
+Date:   Sat Mar 25 16:52:58 2023 +0100
+
+    adding roles package and publish assets
+
+commit f26a3b3aa90459e852b4e03a1e35be2531736ed9
+Author: kamel heragmi <kamel.heragmi@gmail.com>
+Date:   Sat Mar 25 16:41:03 2023 +0100
+
+    first commit

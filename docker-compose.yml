@@ -1,0 +1,52 @@
+version: "3.7"
+services:
+    db:
+        image: mysql:8.0.33-debian
+        container_name: courier-db
+        restart: unless-stopped
+        environment:
+            MYSQL_DATABASE: ${DB_DATABASE}
+            MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+            MYSQL_PASSWORD: ${DB_PASSWORD}
+            MYSQL_USER: ${DB_USERNAME}
+            SERVICE_TAGS: dev
+            SERVICE_NAME: mysql
+        ports:
+            - 3307:3306
+        volumes:
+            - data:/var/lib/mysql
+        networks:
+            - courier
+    nginx:
+        image: webdevops/php-apache:8.2
+        container_name: courier-apache2
+        restart: unless-stopped
+        ports:
+            - 8000:80
+        volumes:
+            - ./:/app
+            - ./docker-compose/httpd/:/opt/docker/etc/httpd/conf.d/
+        networks:
+            - courier
+    app:
+        build:
+            args:
+                user: mesrs
+                uid: 1000
+            context: ./
+            dockerfile: Dockerfile
+        image: app
+        container_name: courier-app
+        depends_on:
+            - db
+        restart: unless-stopped
+        working_dir: /var/www/html
+        volumes:
+            - ./:/var/www/html
+        networks:
+            - courier
+networks:
+    courier:
+        driver: bridge
+volumes:
+    data:
