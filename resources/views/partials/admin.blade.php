@@ -48,12 +48,12 @@
             </a>
         </li>
 
-        <li class="nav-item">
+       {{--  <li class="nav-item">
             <a href="{{ route('parafeures.index') }}" class="nav-link {{ Request::is('parafeures*') ? 'active' : '' }}">
                 <i class="nav-icon fas fa-home"></i>
                 <p>@lang('models/parafeures.plural')</p>
             </a>
-        </li>
+        </li> --}}
 
     </ul>
 </li>
