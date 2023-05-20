@@ -1,10 +1,10 @@
-
-## About Starting kit
-
-This is my starting kit with all needed packages and configuration to start a new project based on laravel framwork
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+# MESRS_Courrier
+## About courrier installation 
+clone the repo using : 
+git clone https://kamelher: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@github.com/Univesity-of-msila/courrier.git
+### commands
+Run the bellow command:
+docker-compose exec apache cd /app && composer update && php artisan storage:link && php artisan migrate
 
 ## Code of Conduct
 

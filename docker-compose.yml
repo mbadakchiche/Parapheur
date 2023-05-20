@@ -17,11 +17,10 @@ services:
             - data:/var/lib/mysql
         networks:
             - courier
-    nginx:
+    apache:
         image: webdevops/php-apache:8.2
         container_name: courier-apache2
         restart: unless-stopped
-        command: composer update && php artisan storage:link && php artisan migrate
         ports:
             - 8001:80
         volumes:
