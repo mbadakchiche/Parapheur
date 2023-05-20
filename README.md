@@ -12,7 +12,7 @@ APP_URL=http://localhost:8001
 
 Run the bellow command:
 ```
-docker-compose Up -d
+docker-compose up -d
 ```
 ``` cmd 
 docker-compose exec apache cd /app && composer update && php artisan storage:link && php artisan migrate
