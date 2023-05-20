@@ -22,6 +22,7 @@ cd /app
 composer update
 php artisan storage:link 
 php artisan migrate
+php artisan db:seed
 
 chmod -R 777 storage/ bootstrap/
 ```
