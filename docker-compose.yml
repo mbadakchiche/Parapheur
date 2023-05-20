@@ -21,8 +21,9 @@ services:
         image: webdevops/php-apache:8.2
         container_name: courier-apache2
         restart: unless-stopped
+        command: composer update && php artisan storage:link && php artisan migrate
         ports:
-            - 8000:80
+            - 8001:80
         volumes:
             - ./:/app
             - ./docker-compose/httpd/:/opt/docker/etc/httpd/conf.d/
@@ -40,9 +41,9 @@ services:
         depends_on:
             - db
         restart: unless-stopped
-        working_dir: /var/www/html
+        working_dir: /app
         volumes:
-            - ./:/var/www/html
+            - ./:/app
         networks:
             - courier
 networks:
