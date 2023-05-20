@@ -3,8 +3,11 @@
 namespace App\Repositories;
 
 use App\Models\Service;
-use App\Repositories\BaseRepository;
 use App\Traits\Uploader;
+use Illuminate\Support\Str;
+use App\Repositories\BaseRepository;
+use App\Repositories\UserRepository;
+use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
 
 class ServiceRepository extends BaseRepository
@@ -38,6 +41,31 @@ class ServiceRepository extends BaseRepository
                 $this->uploadAsArray($model, 'Uploads/'.\Auth::id(),'thumbnail',$input,'thumbnail','thumbnail')
                 : $model->syncMedia($this->uploadAsFile('Uploads/'.\Auth::id(),'thumbnail',$input,'thumbnail'), 'thumbnail');
         }
+        //create a manager
+        $data = [
+            'name' => $input['name_en']."_manager",
+            'email' => Str::slug($input['abr_ar'], '-')."_manager@mesrs.dz",
+            'email_verified_at' => Carbon::now(),
+            'password' => 'password',
+            'service_id'=>$model->id,
+            'role_id'=> config('roles.models.role')::where('name', 'manager')->first()->id,
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ];
+        (new UserRepository())->create($data);
+        $data = [
+            'name' => $input['name_en']."_secretariat",
+            'email' => Str::slug($input['abr_ar'], '-')."_secretariat@mesrs.dz",
+            'email_verified_at' => Carbon::now(),
+            'password' => 'password',
+            'service_id'=>$model->id,
+            'role_id'=> config('roles.models.role')::where('name', 'secretariat')->first()->id,
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ];
+        (new UserRepository())->create($data);
+        //create a secretariat
+
         return $model;
     }
 
