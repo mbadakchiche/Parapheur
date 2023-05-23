@@ -74,6 +74,7 @@ class incomeMailsTable extends DataTableComponent
                 ->format(
                     fn($value, $row, Column $column) => view('common.livewire-tables.details.incomeMails', [
                         'showUrl' => route('mails.show', $row->id),
+                        'attachUrl'=>route('mails.attach', $row->id),
                         'recordId' => $row->id,
                         'title' => $row->objet,
                     ])

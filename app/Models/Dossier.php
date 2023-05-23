@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class Dossier extends Model
 {
@@ -92,6 +93,11 @@ class Dossier extends Model
     public function service():BelongsTo
     {
        return $this->belongsTo(Service::class,'service_id');
+    }
+
+    public function mails():HasMany
+    {
+        return $this->hasMany(Mail::class);
     }
 
     protected static function booted()

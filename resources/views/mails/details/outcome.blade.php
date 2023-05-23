@@ -9,7 +9,7 @@
                 </div>
                 <div class="col-sm-6">
                     @permission('create.mails')
-                    <a href="#popUp"
+                    <a href="#"
                         class="btn btn-primary float-right"
                         onclick="loadeditform('{{ route('mails.create') }}',
                                             '{{ trans('crud.add_new') }}')">

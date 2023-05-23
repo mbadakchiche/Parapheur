@@ -13,12 +13,15 @@ return [
 
     'fields' => [
         'id' => 'الرقم',
+        'dossier_id' => 'الملف',
+        
         'objet' => 'الموضوع',
         'ref' => 'المرجع',
         'body' => 'المحتوى',
         'created_at' => 'تاريخ الانشاء',
         'updated_at' => 'تاريخ اخر تعديل',
-        'attachments' => 'المرفقات'
+        'attachments' => 'المرفقات',
+        'mails'=>'المراسلات في هذا الملف'
     ],
     'button'=>[
         'view'=>'عرض',

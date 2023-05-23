@@ -13,12 +13,14 @@ return [
     'needdispatch'=> 'Need Dispatching Mails',
     'fields' => [
         'id' => 'Id',
+        'dossier_id' => 'Folder',
         'objet' => 'Objet',
         'ref' => 'Ref',
         'body' => 'Body',
         'created_at' => 'Created At',
         'updated_at' => 'Updated At',
-        'attachments' => 'Attachments'
+        'attachments' => 'Attachments',
+        'mails'=>'Mails in this forlder'
     ],
     'button'=>[
         'view'=>'View',
