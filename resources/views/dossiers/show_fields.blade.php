@@ -34,7 +34,6 @@
     <p>{{ $dossier->created_at }}</p>
 </div>
 
-<!-- Created At Field -->
 <div class="col-sm-12">
     {!! Form::label('mails', __('models/mails.fields.mails').':') !!}
     <p>
