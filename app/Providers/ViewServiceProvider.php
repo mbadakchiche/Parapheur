@@ -36,6 +36,11 @@ class ViewServiceProvider extends ServiceProvider
             $etab = Etablissement::first();
             $view->with('etab',$etab);
         });
+        View::composer('profile.home', function ($view){
+            $etab = Etablissement::first();
+            $view ->with('name', 'name_'.app()->getLocale())
+                  ->with('etab',$etab);
+        });
 
         //********* Dashboard Views
         View::composer(['Home.partials.register-stats'], function ($view) {

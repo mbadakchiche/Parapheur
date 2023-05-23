@@ -47,10 +47,16 @@ class User  extends Authenticatable
         'created_at' => 'nullable',
         'updated_at' => 'nullable'
     ];
+
     public static array $UpdateRules = [
         'name' => 'required|string|max:255',
         'email' => 'required|string|max:255',
         'service_id' => 'required',
+    ];
+    public static array $ProfileRules = [
+        'name' => 'required|string|max:255',
+        'email' => 'required|string|max:255',
+        'password' => 'required',
     ];
 
 

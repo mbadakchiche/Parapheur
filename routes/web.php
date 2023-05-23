@@ -25,6 +25,8 @@ Route::get('/', function () {
 Route::get('lang/{lang}', ['as' => 'lang.switch', 'uses' => 'App\Http\Controllers\LanguageController@switchLang']);
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/profile/show', [App\Http\Controllers\HomeController::class, 'showProfile'])->name('profile.show');
+Route::patch('/profile/store/{id}', [App\Http\Controllers\HomeController::class, 'storeProfile'])->name('profile.store');
 
 
 Auth::routes(['register'=>false]);

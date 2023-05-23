@@ -7,6 +7,7 @@ return [
     'create' => 'إنشاء',
     'edit' => 'تعديل',
     'send' => 'ارسال',
+    'show' => 'عرض',
     'record' => 'تسجيل',
     'process' => 'معالجة',
     'dispatch' => 'توزيع',

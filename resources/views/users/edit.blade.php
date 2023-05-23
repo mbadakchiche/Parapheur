@@ -4,7 +4,7 @@
 
         <div class="card">
 
-            {!! Form::model($user, ['route' => ['users.update', $user->id], 'method' => 'patch']) !!}
+            {!! Form::model($user, ['route' => ['profile.store', $user->id], 'method' => 'patch']) !!}
 
             <div class="card-body">
                 <div class="row">
@@ -14,7 +14,6 @@
 
             <div class="card-footer">
                 {!! Form::submit('Save', ['class' => 'btn btn-primary']) !!}
-                <a href="{{ route('users.index') }}" class="btn btn-default"> @lang('crud.cancel') </a>
             </div>
 
             {!! Form::close() !!}
